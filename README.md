@@ -2,7 +2,7 @@
 #### Dataset
 The used [dataset](https://www.kaggle.com/datasets/harrywang/wine-dataset-for-clustering) is downloaded from Kaggle. This dataset gives
 information about various parameters of wine. The data needs to be grouped into different clusters based on its values.
-Dataset has 178 rows and 13 columns.
+Dataset has 178 rows and 13 columns. All columns have numerical values and no values are missing.
 ___
 #### Kmeans
 KMeans works by randomly selecting n data points to be the initial cluster centers. 
