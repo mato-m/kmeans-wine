@@ -1,4 +1,4 @@
-# KMeans in wine clustering
+# KMeans - Wine data clustering
 #### Dataset
 The used [dataset](https://www.kaggle.com/datasets/harrywang/wine-dataset-for-clustering) is downloaded from Kaggle. This dataset gives
 information about various parameters of wine. The data needs to be grouped into different clusters based on its values.
