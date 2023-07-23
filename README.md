@@ -1,18 +1,16 @@
 # KMeans - Wine data clustering
-#### Dataset
+## Dataset
 The used [dataset](https://www.kaggle.com/datasets/harrywang/wine-dataset-for-clustering) is downloaded from Kaggle. This dataset gives
 information about various parameters of wine. The data needs to be grouped into different clusters based on its values.
 Dataset has 178 rows and 13 columns. All columns have numerical values and no values are missing.
-___
-#### KMeans
+## KMeans
 KMeans works by randomly selecting n data points to be the initial cluster centers. 
 The rest of the data are then grouped into clusters to which they are closest.
 
 When all the data are classified into clusters, the mean of each cluster
 is observed and the data is regrouped by clusters depending on the distance from its center. 
 The procedure is repeated until every cluster remains the same as in the previous step.
-___
-#### Elbow method
+## Elbow method
 Elbow method is used to determine the optimal number of clusters. A KMeans model is created for each number of clusters 
 and the sum of squared errors (SSE) is determined.
 
@@ -23,8 +21,7 @@ In this example, elbow is noticeable at 6 clusters.
 
 ![Elbow method](https://github.com/mato-m/kmeans-wine/assets/64593617/0aa0af44-7ab4-42c0-a677-d24686b38f38)
 
-
-#### Sillhouette score
+## Sillhouette score
 
 The Silhouette score ranges between 1 and -1.
 
@@ -36,7 +33,7 @@ Using the silhouette score we can also see that the optimal number of clusters i
 
 ![Sillhouette score](https://github.com/mato-m/kmeans-wine/assets/64593617/b077b27a-54c3-4f9f-af1f-cc146aa9c90b)
 
-#### Principal Component Analysis (PCA)
+## Principal Component Analysis (PCA)
 
 In order to provide a simple visual representation of the data, the dimensionality of the data is reduced using Principal Component Analysis (PCA).
 
