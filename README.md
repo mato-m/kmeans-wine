@@ -4,7 +4,7 @@ The used [dataset](https://www.kaggle.com/datasets/harrywang/wine-dataset-for-cl
 information about various parameters of wine. The data needs to be grouped into different clusters based on its values.
 Dataset has 178 rows and 13 columns. All columns have numerical values and no values are missing.
 ___
-#### Kmeans
+#### KMeans
 KMeans works by randomly selecting n data points to be the initial cluster centers. 
 The rest of the data are then grouped into clusters to which they are closest.
 
